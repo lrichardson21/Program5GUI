@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="423.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <Button layoutX="30.0" layoutY="109.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="64.0" prefWidth="364.0" text="SEARCH CHARACTER" textFill="#c31e1e">
+         <font>
+            <Font name="Apple SD Gothic Neo Regular" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="213.0" layoutY="173.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="182.0" text="FIGHT">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="31.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="64.0" prefWidth="364.0" text="ADD CHARACTER" textFill="#0835eb">
+         <font>
+            <Font name="Apple SD Gothic Neo Regular" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="30.0" layoutY="228.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="182.0" text="SEARCH HEROES">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="31.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="182.0" text="SEARCH MARVEL" textFill="#a41d1d">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="212.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="182.0" text="SEARCH DC" textFill="#0835eb">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="212.0" layoutY="228.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="182.0" text="SEARCH VILLAINS">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="30.0" layoutY="173.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="182.0" text="ADD POWER">
+         <font>
+            <Font name="Apple SD Gothic Neo Regular" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="31.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="55.0" prefWidth="364.0" text="DISPLAY STATS">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
